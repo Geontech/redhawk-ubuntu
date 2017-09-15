@@ -117,7 +117,7 @@ function install_omniEvents () {
 
     # Compile and install into where the packaged version would normally be.
     ./reconf && ./configure --prefix=/usr && \
-        make -j$(nproc) && make install
+        make -j$(nproc) && make install && make -C etc install
 
     popd
 }
