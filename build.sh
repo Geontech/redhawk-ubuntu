@@ -423,8 +423,8 @@ BUILD_TEMP=temp
 pushd ${BUILD_TEMP}
 
 # Dependencies
-#install_build_deps
-#patch_xsd
+install_build_deps
+patch_xsd
 install_omniORB
 install_omniORBpy
 install_omniEvents
