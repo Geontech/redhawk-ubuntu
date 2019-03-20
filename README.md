@@ -1,6 +1,6 @@
 # REDHAWK in Ubuntu
 
-The purpose of this build script is to download, compile and install REDHAWK SDR's core framework, IDE, and default SDRROOT (i.e., Waveforms and Components) on an Ubuntu -based host.  The current tested Ubuntu version is 16.04.
+The purpose of this build script is to download, compile and install version 2.2.1 of REDHAWK SDR's core framework, IDE, and default SDRROOT (i.e., Waveforms and Components) on an Ubuntu -based host.  The current tested Ubuntu version is 16.04.
 
 ## Installation
 
@@ -18,7 +18,9 @@ You will need to have super user permissions to use this script.
 
 It will compile and install the following dependencies:
 
- * OmniEvents 2.7.1
+ * omniORB 4.2.3
+ * omniORBpy 4.2.3
+ * OmniEvents 2.8.1
  * UHD 3.10.01
  * libnmea 0.5.3
 
